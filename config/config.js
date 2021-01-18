@@ -1,0 +1,1 @@
+const API_URL = 'https://emprego-iwtraining.firebaseio.com/';

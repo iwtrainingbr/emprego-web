@@ -1,0 +1,11 @@
+WEB:
+    As empresas vão se cadastrar, e cadastrar vagas, e visualizar os perfis de pessoas cadastradas na plataforma (app).
+
+
+Telas:
+    Tela de Cadastro da Empresa
+    Tela de Login (da empresa)
+    Tela de Cadastro da Vaga (Depois de logada)
+    Tela de gerenciamento das vagas (Listar, editar, excluir)
+    Tela de Visualização dos perfis dos trabalhadores
+

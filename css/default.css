@@ -1,0 +1,9 @@
+html, body {
+    font-family: Roboto, sans-serif;
+    background-color: #EFEFEF;
+}
+
+.card-dashboard .material-icons {
+    float: right;
+    font-size: 40px;
+}
