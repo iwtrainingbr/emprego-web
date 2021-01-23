@@ -21,15 +21,15 @@ function jobs() {
                 data.push(response[id]);
             }
 
-            let tableData = data.map(job => {
+            let tableData = data.map((job, index) => {
                 return `
                     <tr>
-                        <td>${job.title}</td>
+                        <td id="job-${index}">${job.title}</td>
                         <td><span class="badge badge-success">Ativa</span></td>
                         <td>99</td>
                         <td>01/01/2021 09:45</td>
                         <td>
-                            <a class="btn btn-light" href="?page=detalhes-vaga&id=${job.id}">Detalhes</a>
+                            <a id="job-details-${index}" class="btn btn-light" href="?page=detalhes-vaga&id=${job.id}">Detalhes</a>
                             <button class="btn btn-warning">Editar</button>
                             <button class="btn btn-danger" onclick="removeJob('${job.id}')">Excluir</button>
                         </td>

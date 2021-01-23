@@ -21,10 +21,10 @@ function login() {
                     <h3>Identifique-se</h3>
                     <hr>
                     <form>
-                        <input type="email" placeholder="Email" class="form-control form-control-lg">
-                        <input type="password" placeholder="Senha" class="form-control form-control-lg mt-3">
+                        <input id="email" type="email" placeholder="Email" class="form-control form-control-lg">
+                        <input id="password" type="password" placeholder="Senha" class="form-control form-control-lg mt-3">
                         
-                        <a href="?page=home" class="btn btn-primary btn-lg btn-block mt-3">ENTRAR</a>
+                        <a href="?page=home" id="confirm" class="btn btn-primary btn-lg btn-block mt-3">ENTRAR</a>
                         
                         <div class="text-center mt-3">
                             <a href="?page=cadastro">Não tenho conta!</a>
